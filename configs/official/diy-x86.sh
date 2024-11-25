@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.123.254/g' package/base-files/files/bin/config_generate
 
 # Hostname
-sed -i 's/OpenWrt/x86/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/nzksm/g' package/base-files/files/bin/config_generate
 
 # Timezone
 #sed -i "s/'UTC'/'CST-8'\n   set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
